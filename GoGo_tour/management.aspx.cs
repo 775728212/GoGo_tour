@@ -25,19 +25,19 @@ namespace GoGo_tour
             {
                 Response.Redirect("login.apsx");
             }
-
+            dsadsadas
          
         }
 
         protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
-       
+       dsadsad
 
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-        
+        dsad
         }
 
 

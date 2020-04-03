@@ -19,9 +19,9 @@
 
             <a href="index.aspx">
                 <img src="img/logoko.png" /></a>
-
+            dasdasd 
         </div>
-
+        dsad
         <div id="main">
             <div id="ad"></div>
             <div id="login">
@@ -31,7 +31,7 @@
                         <li id="li_regist">注册</li>
                     </ul>
                 </div>
-
+                dsad
                 <div id="login_content">
                     <label class="lb col1 row1">用户名：</label>
                     <input type="text" class=" ipt col2 row1" placeholder="请输入手机号或邮箱号" id="userId" onkeypress="BindEnter();">
@@ -48,7 +48,7 @@
 
                     <input type="checkbox" class=" ip_check col2 row4">
 
-
+dsadasdsadsa
 
                     <label class="lb_remember col3 row4">记住密码</label>
                     <a href="#" class="a_forget col4 row4">忘记密码？</a>

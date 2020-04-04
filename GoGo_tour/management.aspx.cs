@@ -23,21 +23,21 @@ namespace GoGo_tour
             }
             else
             {
-                Response.Redirect("login.apsx");
+                Response.Redirect("login.aspx");
             }
-            dsadsadas
+
          
         }
 
         protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
-       dsadsad
+       
 
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-        dsad
+        
         }
 
 

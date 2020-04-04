@@ -335,6 +335,21 @@
                 </span>
             </div>
         </div>
+        <asp:Repeater ID="Repeater1" runat="server">
+            <ItemTemplate>
+                      <div class="show_div">
+            <div class="show_div_img2">  <span class="img_span"><a><%# Eval("name") %></a></span>
+            </div>
+            <div class="info">
+                <span class="price_info"><h3 style="color: red; text-align: left;">￥<%# Eval("oldprice") %></h3>
+						<h5 style="text-align: left; text-decoration: line-through;color:#808080;margin-left:10px;">￥<%# Eval("newprice") %></h5></span>
+                <span class="opinion_info">
+                    满意率:90%
+                </span>
+            </div>
+        </div>
+            </ItemTemplate>
+        </asp:Repeater>
     </div>
    <div id="main_div2">
 
@@ -365,7 +380,7 @@
              <a href="http://www.tuniu.com//" target="_blank">途牛网</a>&nbsp;&nbsp;&nbsp;
             <a href="http://www.mafengwo.cn//" target="_blank">蚂蚁窝</a>&nbsp;&nbsp;&nbsp;
         </h4>
-        <h4>@版权所属 易子程</h4>
+        <h4></h4>
         <a href =" login.aspx" target ="_blank">后台管理系统</a>
     </div>
 

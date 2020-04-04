@@ -87,7 +87,7 @@
             </asp:SqlDataSource>
         </div>
     </main>
-    <footer>@版权所属 易子程</footer>
+    <footer></footer>
     </form>
 </body>
 </html>

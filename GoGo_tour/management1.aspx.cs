@@ -27,7 +27,7 @@ namespace GoGo_tour
             }
             else
             {
-                Response.Redirect("login.apsx");
+                Response.Redirect("login.aspx");
             }
 
         }

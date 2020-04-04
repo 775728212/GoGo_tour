@@ -21,6 +21,7 @@ namespace GoGo_tour
             {
                 string viewname = Session["ViewName_admin"].ToString();
                 this.head_right.InnerHtml = "欢迎使用勾勾网管理系统," + viewname + ",<a href=\"login.aspx\" >退出</a>";
+
             }
             else
             {

@@ -65,7 +65,7 @@
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [userName], [password], [viewName] FROM [tour_user]"></asp:SqlDataSource>
         </div>
     </main>
-    <footer>@版权所属 易子程</footer>
+    <footer></footer>
     
     </form>
     

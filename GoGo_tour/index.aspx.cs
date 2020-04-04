@@ -19,7 +19,16 @@ namespace GoGo_tour
         SqlConnection conn = new SqlConnection(ConnStr);
         protected void Page_Load(object sender, EventArgs e)
         {
-            String flag = Request.QueryString["flag"];
+
+           String flag = Request.QueryString["flag"];
+            string sql1 = "select * from tour_info";
+            conn.Open();
+            SqlDataAdapter sa = new SqlDataAdapter(sql1, conn);
+            DataTable dt = new DataTable();
+            sa.Fill(dt);
+            this.Repeater1.DataSource = dt;
+            this.Repeater1.DataBind();
+            conn.Close();
             if (flag == "unLogin")
             {
                 Session["ViewName"] = null;
@@ -33,6 +42,8 @@ namespace GoGo_tour
             {
                 string viewname = Session["ViewName"].ToString();
                 this.head_left.InnerHtml = "欢迎来到勾勾旅游网," + viewname + ",<a href=\"index.aspx?flag=unLogin\" >退出</a>";
+               
+              
             }
           
             conn.Open();
